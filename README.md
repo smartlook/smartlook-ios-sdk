@@ -7,6 +7,16 @@ This repository serves as an issue tracker.
 # Changelog
 All notable changes to this project will be documented here.
 
+## [0.1.11] - 2019-03-4
+### Added
+- Supporting selector event on all `UIControl` instances, including `UIDatePicker`, `UISegmentedControl`, `UISlider`, `UIStepper` and `UISwitch`
+- `UIView` has two new properties for direct setting of their *sensitivity* handling: `slSensitive` (boolean flag) and `slOverlay` (overlay colour)
+  - these properties are also accessible in Xcode Interface Builder
+
+### Fixed
+- Location of accessed UITabBarItems
+- More accurate overlay of sensitive views
+
 ## [0.1.10] - 2019-01-29
 ### Changes
 - Sensitive input views (UITextField, UITextView) are hidden by default now, i.e., overlay is opt-out, not opt-in now
