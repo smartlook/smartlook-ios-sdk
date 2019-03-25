@@ -7,6 +7,10 @@ This repository serves as an issue tracker.
 # Changelog
 All notable changes to this project will be documented here.
 
+## [0.1.12] - 2019-03-25
+### Fixed
+- Optimized sensitive views overlays with respect to the device rotation and CPU load.
+
 ## [0.1.11] - 2019-03-4
 ### Added
 - Supporting selector event on all `UIControl` instances, including `UIDatePicker`, `UISegmentedControl`, `UISlider`, `UIStepper` and `UISwitch`
