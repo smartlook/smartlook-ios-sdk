@@ -7,6 +7,13 @@ This repository serves as an issue tracker.
 # Changelog
 All notable changes to this project will be documented here.
 
+## [1.1.0] - 2019-07-23
+### Changed
+- new much consistent version of API, the legacy API marked as deprecated, see documentation for details
+- better snapshot handlings to improve CPU and battery efficiency
+### Fixed
+- various small errors
+
 ## [1.0.0] - 2019-05-21
 ### Added 
 - Crashlytics support: URL of the latest recording made by Smartlook during or before the crash is added to crashreports
