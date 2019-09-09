@@ -7,6 +7,15 @@ This repository serves as an issue tracker.
 # Changelog
 All notable changes to this project will be documented here.
 
+## [1.2.0] - 2019-09-09
+### Added
+- support for custom navigation events
+### Changed
+- improved recording when there are Maps, SpriteKit, SceneKit or Metal views in UIKit app
+### Fixed
+- bug when `isRecording` returned `true` before `Smartlook.setup()`
+- various smaller issues
+
 ## [1.1.0] - 2019-07-23
 ### Changed
 - new much consistent version of API, the legacy API marked as deprecated, see documentation for details
