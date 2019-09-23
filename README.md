@@ -7,6 +7,13 @@ This repository serves as an issue tracker.
 # Changelog
 All notable changes to this project will be documented here.
 
+## [1.2.1] - 2019-09-23
+### Added
+- support for timed events
+### Fixed
+- bug when Smartlook crashed on iOS 10.x when some kinds of views (e.g., `UIAlertController`) were used in the app
+- bug when Smartlook crashed when the app started w/out network connection
+
 ## [1.2.0] - 2019-09-09
 ### Added
 - support for custom navigation events
