@@ -9,7 +9,7 @@ All notable changes to this project will be documented here.
 
 ## [1.2.2] - 2019-10-23
 ### Added
-- `UIAlertController` actions recorded
+- `UIAlertController` navigation events and actions recorded
 -  in whitelisted instances of `UIWebView` or `WKWebView`, the sensitive data inside them are overlayed
 
 ## [1.2.1] - 2019-09-23
