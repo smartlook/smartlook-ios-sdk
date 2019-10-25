@@ -7,6 +7,10 @@ This repository serves as an issue tracker.
 # Changelog
 All notable changes to this project will be documented here.
 
+## [1.2.3] - 2019-10-25
+### Fixed
+- crashing when app uses `UIAlertController` with `nil` action handler
+
 ## [1.2.2] - 2019-10-23
 ### Added
 - `UIAlertController` navigation events and actions recorded
