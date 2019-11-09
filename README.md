@@ -7,6 +7,10 @@ This repository serves as an issue tracker.
 # Changelog
 All notable changes to this project will be documented here.
 
+## [1.2.4] - 2019-11-09
+### Fixed
+- crashing when app presents `UIAlertController` *not* using the standard `UIViewController.present(_:animated:completion:)` method
+
 ## [1.2.3] - 2019-10-25
 ### Fixed
 - crashing when app uses `UIAlertController` with `nil` action handler
