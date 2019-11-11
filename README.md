@@ -7,6 +7,10 @@ This repository serves as an issue tracker.
 # Changelog
 All notable changes to this project will be documented here.
 
+## [1.2.5] - 2019-11-11
+### Changed
+- SDK is build using Xcode 10 again to avoid `___isPlatformVersionAtLeast` undefined symbol issue.
+
 ## [1.2.4] - 2019-11-09
 ### Fixed
 - crashing when app presents `UIAlertController` *not* using the standard `UIViewController.present(_:animated:completion:)` method
