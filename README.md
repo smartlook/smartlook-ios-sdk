@@ -7,6 +7,14 @@ This repository serves as an issue tracker.
 # Changelog
 All notable changes to this project will be documented here.
 
+## [1.2.6] - 2019-12-02
+### Changed
+- removed calls to UIWebView methods to avoid App Store warnings. 
+- this causes that **in whitelisted UIWebView, sensitive fields are no longer overlayed**. In embedded web views, sensitive fileds are overlayed only in WKWebView from now.
+
+### Added
+- ability to whitelist sensitive fields in whitelisted WKWebViews. In order to do that, flag the whitelisted HTML elements with `smartlook-show` CSS class.
+
 ## [1.2.5] - 2019-11-11
 ### Changed
 - SDK is build using Xcode 10 again to avoid `___isPlatformVersionAtLeast` undefined symbol issue.
