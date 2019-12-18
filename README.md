@@ -13,9 +13,9 @@ All notable changes to this project will be documented here.
 - removing `UIWebView` from SDK causes that **`UIWebView` instances are not overlayed in recordings**. If you want all instances of `UIWebView` overlayed to protect potentially sensitive data, add the following line just after Smartlook setup.
 
 ```swift
+// Swift
 Smartlook.registerBlacklisted(object: UIWebView.self)
-```
-```objc
+// OBJ-C
 [Smartlook registerBlacklistedObject:UIWebView.class];
 ```
 
