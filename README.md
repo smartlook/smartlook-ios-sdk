@@ -7,6 +7,18 @@ This repository serves as an issue tracker.
 # Changelog
 All notable changes to this project will be documented here.
 
+## [1.2.7] - 2019-12-18
+### Changed
+- removed all traces of `UIWebView` from SDK. `UIWebView` is deprecated and app that use it will soon not allowed in App Store. 
+- removing `UIWebView` from SDK causes that **`UIWebView` instances are not overlayed in recordings**. If you want all instances of `UIWebView` overlayed to protect potentially sensitive data, add the following line just after Smartlook setup.
+
+```swift
+Smartlook.registerBlacklisted(object: UIWebView.self)
+```
+```objc
+[Smartlook registerBlacklistedObject:UIWebView.class];
+```
+
 ## [1.2.6] - 2019-12-02
 ### Changed
 - removed calls to UIWebView methods to avoid App Store warnings. 
