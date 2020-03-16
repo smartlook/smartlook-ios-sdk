@@ -7,6 +7,17 @@ This repository serves as an issue tracker.
 # Changelog
 All notable changes to this project will be documented here.
 
+## [1.2.8] - 2020-03-16
+### Added
+- Analytics-Only recording: does not record screen and does not visualise user interactions https://smartlook.github.io/docs/sdk/ios/#analytics-only-mode
+- Rendering Mode BETA: to further protect user's privacy, few recording modes were added to record the screen in the form of a wireframe scheme https://smartlook.github.io/docs/sdk/ios/#rendering-mode-beta
+
+### Changed
+- some refactorings, optimizations
+
+### Fixed
+- varisou small and niche bugs
+
 ## [1.2.7] - 2019-12-18
 ### Changed
 - removed all traces of `UIWebView` from SDK. `UIWebView` is deprecated and app that use it will soon not allowed in App Store. 
