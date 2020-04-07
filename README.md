@@ -7,6 +7,10 @@ This repository serves as an issue tracker.
 # Changelog
 All notable changes to this project will be documented here.
 
+## [1.2.9] - 2020-04-07
+### Fixed
+- fixed an error that blocked analytics events
+
 ## [1.2.8] - 2020-03-16
 ### Added
 - Analytics-Only recording: does not record screen and does not visualise user interactions https://smartlook.github.io/docs/sdk/ios/#analytics-only-mode
