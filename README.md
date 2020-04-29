@@ -7,6 +7,10 @@ This repository serves as an issue tracker.
 # Changelog
 All notable changes to this project will be documented here.
 
+## [1.3.1] - 2020-04-29
+### Fixed
+- an issue when Smartlook blocked answer from `UICollectionViewDelegate` `collectionView:shouldSelectItemAtIndexPath:` method
+
 ## [1.3.0] - 2020-04-22
 ### Fixed
 - memory issues in apps with a lot of background activities
