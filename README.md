@@ -7,6 +7,17 @@ This repository serves as an issue tracker.
 # Changelog
 All notable changes to this project will be documented here.
 
+## [1.4.0] - 2020-06-24
+### Added 
+- integration points for other SDKs: session URL with timestamp, visitor page https://smartlook.github.io/docs/sdk/ios/#dashboard-urls
+
+### Fixed
+- a significant memory leak
+
+### Changed
+- performace improvements
+- video quality improvements
+
 ## [1.3.1] - 2020-04-29
 ### Fixed
 - an issue when Smartlook blocked answer from `UICollectionViewDelegate` `collectionView:shouldSelectItemAtIndexPath:` method
