@@ -7,6 +7,12 @@ This repository serves as an issue tracker.
 # Changelog
 All notable changes to this project will be documented here.
 
+## [1.4.1] - 2020-07-07
+
+### Fixed
+- messed up focus events
+- ocassional crashes in SLInternalSDKProperties when initializing the SDK
+
 ## [1.4.0] - 2020-06-24
 ### Added 
 - integration points for other SDKs: session URL with timestamp, visitor page https://smartlook.github.io/docs/sdk/ios/#dashboard-urls
